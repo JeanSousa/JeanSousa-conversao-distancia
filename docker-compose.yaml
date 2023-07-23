@@ -2,6 +2,7 @@ version: '3.8'
 
 services: 
   conversao-distancia:
+    image: jeansousa/conversao-distancia:v1
     build:
       context: ./
       dockerfile: Dockerfile
